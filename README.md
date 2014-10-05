@@ -1,4 +1,4 @@
 Team-CedarChest
 ===============
 
-WebFundamentals-teamwork!
+WebFundamentals-teamwork

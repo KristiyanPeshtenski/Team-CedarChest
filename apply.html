@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/apply.css">
+    <title>Softuni</title>
+</head>
+<body>
+    <header>
+        <div id="logocontainer">
+        <nav id='navbar'>
+            <ul>
+                <li class='active'><a href='#'><span>Начало</span></a></li>
+                <li class='has-sub'><a href='#'><span>Курсове</span></a>
+                    <ul>
+                        <li><a href='#'><span>Product 1</span></a></li>
+                        <li><a href='#'><span>Product 2</span></a></li>
+                        <li class='last'><a href='#'><span>Product 3</span></a></li>
+                    </ul>
+                </li>
+                <li class='has-sub'><a href='#'><span>За нас</span></a>
+                    <ul>
+                        <li><a href='#'><span>Company</span></a></li>
+                        <li class='last'><a href='#'><span>Contact</span></a></li>
+                    </ul>
+                </li>
+                <li class='last'><a href='#'><span>Контакти</span></a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+	
+	<section>
+        <form id="application" method="post" action="#">
+            <fieldset id="personal-info">
+                <legend>Лична Информация</legend>
+                <label for="fname">Име</label>
+                <input type="text" name="fname" id="fname" placeholder="Име" />
+                <label for="lname">Фамилия</label>
+                <input type="text" name="lname" id="lname" placeholder="Фамилия" />
+                <label for="email">И-мейл</label>
+                <input type="email" name="email" id="email" placeholder="И-мейл" />
+                <label for="phone">Телефон</label>
+                <input type="tel" name="phone" id="phone" placeholder="Телефон" />
+                <label for="pid">ЕГН</label>
+                <input type="text" name="pid" id="pid" placeholder="ЕГН" />
+                <label for="birthdate">Дата на раждане</label>
+                <input type="date" name="birthdate" id="birthdate" value="1970-01-01"/>
+                <label for="gender">Пол</label>
+                <select id="gender" name="gender">
+                    <option value="male">Мъж</option>
+                    <option value="female">Жена</option>
+                    <option value="azis">Азис</option>
+                    <option value="krisko">Криско</option>
+                    <option value="other">Друго</option>
+                </select>
+                <label for="country">Държава</label>
+                <input type="text" name="country" id="country" placeholder="Държава" />
+                <label for="city">Град</label>
+                <input type="text" name="city" id="city" placeholder="Град" />
+                <label for="address">Адрес</label>
+                <textarea name="address" id="address" placeholder="Адрес"></textarea>
+            </fieldset>
+            <fieldset id="documents">
+                <legend>Необходими документи</legend>
+                <label for="cv">Автобиография</label>
+                <input type="file" name="cv" id="cv" placeholder="Избор на файл..."/>
+                <label for="cover-letter">Мотивационно писмо</label>
+                <input type="file" name="cover-letter" id="cover-letter"/>
+                <label for="birth-certificate">Акт за раждане</label>
+                <input type="file" name="birth-certificate" id="birth-certificate" />
+                <label for="medical">Медицинско свидетелство</label>
+                <input type="file" name="medical" id="medical"/>
+                <label for="criminal">Свидетелство за съдимост</label>
+                <input type="file" name="criminal" id="criminal"/>
+                <label for="id-card">Копие на лична карта</label>
+                <input type="file" name="id-card" id="id-card" />
+                <label for="face-pic">Снимка анфас</label>
+                <input type="file" name="face-pic" id="face-pic" />
+                <label for="body-pic">Снимка цял ръст</label>
+                <input type="file" name="body-pic" id="body-pic" />
+                <label for="ear-pic">Снимка на задната част на ухото</label>
+                <input type="file" name="ear-pic" id="ear-pic" />
+            </fieldset>
+            <fieldset id="additional-info">
+                <legend>Допълнителна информация</legend>
+                <label for="dirt-color">Цвят на мръсното под ноктите</label>
+                <input type="color" name="dirt-color" id="dirt-color" value="black"/>
+                <label for="biceps">Обиколка на бицепса</label>
+                <input type="number" name="biceps" id="biceps" value="25" min="15" max="60" step="0.1" />
+                <label for="height">Ръст в см.</label>
+                <input type="number" name="height" id="height" value="150" min="100" max="250" step="1" />
+                <label for="weight">Тегло в кг.</label>
+                <input type="number" name="weight" id="weight" value="70" min="40" max="200" step="0.5" />
+                <label for="exem-result">Резултат от C#0 изпит в СофтУни</label>
+                <input type="number" name="exam-result" id="exem-result" value="0" min="0" max="500" step="1" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Условия</legend>                
+                <input type="checkbox" name="agree-terms" id="agree-terms" />
+                <label for="agree-terms">Съгласен съм с <a href="terms.html">Условията</a></label>
+            </fieldset>
+
+            <label for="stupid">Тъп ли си?</label>
+            <select name="stupid" id="stupid">
+                <option value="yes">Да</option>
+            </select>
+            <input type="submit" value="Пущай апликацията" />
+        </form>
+    </section>
+
+</body>
+</html>

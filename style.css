@@ -1,6 +1,6 @@
 
 #navbar > ul {
-    background: url(images/menu-bg.png) repeat;
+    background-color: #722d00;
     padding-bottom: 3px;
     font-family: 'tahoma';
     font-weight: 700;
@@ -19,9 +19,10 @@
 #navbar {
     width: auto;
     zoom: 1;
+
 }
 #navbar > ul {
-    background: url(images/menu-bg.png) repeat;
+    background-color: #722d00;;
     margin: 0;
     padding: 0;
     position: relative;
@@ -47,14 +48,15 @@
     line-height: 18px;
 }
 #navbar > ul > li:hover > a {
-    background: url(images/hover.png) repeat;
+    background-color: orange;
+    color: #000000;
 }
 #navbar > ul > li > a > span {
     line-height: 18px;
 }
 #navbar > ul > li.active > a,
 #navbar > ul > li > a:active {
-    background-color: #efac0f;
+    background-color: orange;
     color: #000000;
 }
 
@@ -63,7 +65,7 @@
     visibility: hidden;
     position: absolute;
     top: 120px;
-    background: url(images/hover.png) repeat;
+    background-image: url("images/hover.png"); background-repeat: repeat;
     margin: 0;
     padding: 0;
     z-index: -1;
@@ -112,10 +114,19 @@
     text-shadow: 0 -1px 0 rgba(151, 99, 33, 0.43);
 }
 #navbar > ul ul li a:hover {
-    border-left: 4px solid #055988;
-    background-color: #ffbe00;
+    border-left: 4px solid #722D00;
+    background-color: orange;
     color: #000000;
 }
 #navbar > ul ul li a:active {
     background: url(images/menu-bg.png) repeat;
+}
+#logoback{
+    background-image: url("images/logo%20back.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#logo{
+    width: 15%;
+    margin-top: 10px;
 }

@@ -1,10 +1,8 @@
 section {
-    width: 50%;
+    width: 80%;
     margin: 10px auto;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 20px;	
-	background-color: white;
+    border-radius: 10px;    
+    padding: 20px;		
 }
 
     h1 {

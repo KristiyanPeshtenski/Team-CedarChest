@@ -1,8 +1,6 @@
-section {
-    width: 75%;
-    margin: 10px auto;
-}
-
+#container {
+	height: 2000px;
+}	
 
     figure {
         float: left;
@@ -16,8 +14,8 @@ section {
        }
 
     article {   
-        float: right;
-        width: 40%;
+        float: left;
+        width: 60%;
     }
         
         h1 {

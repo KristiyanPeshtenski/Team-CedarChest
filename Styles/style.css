@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    font-size: 13px;
+    font-size: 16px;
     font-family: calibri;
 }
 #navbar > ul {
@@ -45,7 +45,7 @@ body{
     padding: 23px 26px;
     display: block;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 -1px 0 #c28130;
@@ -144,8 +144,7 @@ body{
     margin: 0;
 }
 #container{
-    width: 90%;
-    
+    width: 90%;    
     background: url(../images/highlight-bg.png);
     margin: 0 auto;
     border: 20px solid transparent;

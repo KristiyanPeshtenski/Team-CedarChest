@@ -1,6 +1,7 @@
 section#main {
     width: 60%;
-    margin: 10px auto;   
+    margin: 10px auto; 
+	background-color: white;	
 }
 
 article {

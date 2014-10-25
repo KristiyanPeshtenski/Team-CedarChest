@@ -1,0 +1,30 @@
+section {
+    width: 75%;
+    margin: 10px auto;
+}
+
+
+    figure {
+        float: left;
+    }
+
+       figcaption {
+           font-size: 1.2em;
+           text-align: center;
+           font-style: italic;
+           font-weight: bold;
+       }
+
+    article {   
+        float: right;
+        width: 40%;
+    }
+        
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        p, li {
+            font-size: 1.2em;
+        }

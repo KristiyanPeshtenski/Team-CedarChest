@@ -64,7 +64,7 @@
     visibility: hidden;
     position: absolute;
     top: 120px;
-    background-image: url("images/hover.png"); background-repeat: repeat;
+    background-image: url("../images/hover.png"); background-repeat: repeat;
     margin: 0;
     padding: 0;
     z-index: -1;
@@ -118,11 +118,11 @@
     color: #000000;
 }
 #navbar > ul ul li a:active {
-    background: url(images/menu-bg.png) repeat;
+    background: url(../images/menu-bg.png) repeat;
 }
 
 #logoback{
-    background-image: url("images/logo%20back.jpg");
+    background-image: url("../images/logo%20back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -143,6 +143,6 @@ body{
     background-color: #ffc100;
     margin: 0 auto;
     border: 20px solid transparent;
-    border-image-source: url(images/wooden_texture_hd_picture_170654.jpg);
+    border-image-source: url(../images/wooden_texture_hd_picture_170654.jpg);
     border-image-slice: 100;
 }

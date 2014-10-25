@@ -9,6 +9,10 @@
     margin: 20px auto;
 }
 
+	h1, h2 {
+		color: white;
+	}
+
     h1 {
         font-size: 2em;
         text-align: center;
@@ -31,8 +35,15 @@
         margin: 10px;
         background-color: orange;
         text-decoration: none;
-        color: darkblue;
-        font-size: 1.2em;        
+        color: black;
+        font-size: 1.2em;    
+		font-weight: bold;
     }
+	
+	div.box:hover {
+		background-image: url("../images/hover.png"); 
+		background-repeat: repeat;
+		color: white;
+	}
 
     

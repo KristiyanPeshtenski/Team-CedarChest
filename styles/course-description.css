@@ -3,7 +3,8 @@ section {
     margin: 10px auto;
     border-radius: 10px;
     border: 1px solid black;
-    padding: 20px;
+    padding: 20px;	
+	background-color: white;
 }
 
     h1 {

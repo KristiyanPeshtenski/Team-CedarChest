@@ -65,7 +65,7 @@
     visibility: hidden;
     position: absolute;
     top: 120px;
-    background-image: url("images/hover.png"); background-repeat: repeat;
+    background-image: url("../images/hover.png"); background-repeat: repeat;
     margin: 0;
     padding: 0;
     z-index: -1;
@@ -122,7 +122,7 @@
     background: url(images/menu-bg.png) repeat;
 }
 #logoback{
-    background-image: url("images/logo%20back.jpg");
+    background-image: url("../images/logo%20back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }

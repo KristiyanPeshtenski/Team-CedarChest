@@ -31,6 +31,7 @@ div#tor > header{
     width: 20rem;
     vertical-align: middle;
     margin-right: 4em;
+    margin-top: 0.5em;
 }
 div#bager > header{
     display: inline-block;

@@ -126,7 +126,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-header{
+body > header{
     margin-bottom: 1em;
 }
 #logo{

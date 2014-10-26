@@ -1,0 +1,79 @@
+body{
+    font-size: 10px;
+    background-color: #a03900;
+}
+
+
+.news_header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em ;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+
+body div article {
+    width: 350px;
+    border: 1px solid black;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+body div article.seminar {
+    margin-left: 20px;
+}
+
+body div article h3 {
+    text-align: center;
+}
+
+body div article h3 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+body div article a {
+    text-decoration: none;
+    color: black;
+}
+
+.article_image img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+}
+
+.first_line article {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+article.rakiq div.bottom_text {
+    margin-top: 20px;
+}
+
+article.rakiq div.aside_text {
+    padding-top: 10px;
+}
+
+article.seminar div.aside_text {
+    padding-top: 20px;
+}
+
+
+article.seminar div.bottom_text {
+    margin-top: 35px;
+}
+
+
+
+

@@ -126,7 +126,9 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-{}
+header{
+    margin-bottom: 1em;
+}
 #logo{
     width: 15%;
     margin-top: 10px;

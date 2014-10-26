@@ -1,3 +1,9 @@
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: calibri;
+}
 #navbar > ul {
     background-color: #722d00;
     padding-bottom: 3px;
@@ -39,7 +45,7 @@
     padding: 23px 26px;
     display: block;
     color: white;
-    font-size: 13px;
+    font-size: 1.1em;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 -1px 0 #c28130;
@@ -126,9 +132,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-body > header{
-    margin-bottom: 1em;
-}
+{}
 #logo{
     width: 15%;
     margin-top: 10px;
@@ -140,7 +144,7 @@ body{
     margin: 0;
 }
 #container{
-    width: 90%;
+    width: 90%;    
     background: url(../images/highlight-bg.png);
     margin: 0 auto;
     border: 20px solid transparent;

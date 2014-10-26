@@ -151,3 +151,12 @@ body{
     border-image-source: url(../images/wooden_texture_hd_picture_170654.jpg);
     border-image-slice: 100;
 }
+
+div#container h1 {
+    color: white;
+    background-color: orange;
+    height: 7%;
+    font-size: 2.5em; 
+    padding: 10px;
+    text-align: center;
+}

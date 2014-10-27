@@ -65,3 +65,10 @@ div#spirt > header {
 #spirt {
     margin-bottom: 2em;
 }
+#heading{
+    background-color: orange;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}

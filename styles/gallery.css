@@ -1,11 +1,18 @@
 div#container > header {
+    /*/
     color: white;
     background-color: orange;
     height: 7%;
     font-size: 2.5em; 
     padding: 10px;
     text-align: center;
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.5em;
+    /*/
+    background-color: orange;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
 }
 #gallery-content{
 	display: inline-block;

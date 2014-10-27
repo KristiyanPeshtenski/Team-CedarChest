@@ -11,8 +11,9 @@ h1 {
 h2 {
     margin-bottom: 0;
 }
+
 p {
-    margin-top: 5px 0;;
+    margin-top: 5px;
 }
 
 ul {
@@ -28,17 +29,17 @@ ul {
 
 @media only screen and (max-width: 1260px) and (min-width: 741px) {
 
- 
- #container {
-	width: 60%;
-	}
- }
- @media only screen and (max-width: 740px) {
 
- 
-  #container {
-	width: 60%;
-	margin: 0 0 0 10px;
-	}
+    #container {
+        width: 60%;
+    }
 }
 
+@media only screen and (max-width: 740px) {
+
+
+    #container {
+        width: 60%;
+        margin: 0 0 0 10px;
+    }
+}

@@ -1,150 +1,168 @@
 
-body{
+body {
     margin: 0;
     font-size: 16px;
     font-family: calibri;
 }
+
 #navbar > ul {
     background-color: #722d00;
     padding-bottom: 3px;
     font-family: 'tahoma';
     font-weight: 700;
 }
-#navbar:before,
-#navbar:after,
-#navbar > ul:before,
-#navbar > ul:after {
-    content: "";
-    display: table;
-}
-#navbar:after,
-#navbar > ul:after {
-    clear: both;
-}
+
+    #navbar:before,
+    #navbar:after,
+    #navbar > ul:before,
+    #navbar > ul:after {
+        content: "";
+        display: table;
+    }
+
+    #navbar:after,
+    #navbar > ul:after {
+        clear: both;
+    }
+
 #navbar {
     width: auto;
-    zoom: 1;
-
-}
-#navbar > ul {
-    background-color: #722d00;;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-#navbar > ul li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-#navbar > ul > li {
-    float: left;
-    position: relative;
-}
-#navbar > ul > li > a {
-    padding: 23px 26px;
-    display: block;
-    color: white;
-    font-size: 1.1em;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 0 -1px 0 #c28130;
-    text-shadow: 0 -1px 0 rgba(151, 99, 33, 0.43);
-    line-height: 18px;
-}
-#navbar > ul > li:hover > a {
-    background-color: orange;
-    color: #000000;
-}
-#navbar > ul > li > a > span {
-    line-height: 18px;
-}
-#navbar > ul > li.active > a,
-#navbar > ul > li > a:active {
-    background-color: orange;
-    color: #000000;
 }
 
-#navbar > ul ul {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 120px;
-    background-image: url("../images/hover.png"); background-repeat: repeat;
-    margin: 0;
-    padding: 0;
-    z-index: -1;
-    -webkit-transition: all 0.35s 0.2s ease-in-out;
-    -moz-transition: all 0.35s 0.2s ease-in-out;
-    -ms-transition: all 0.35s 0.2s ease-in-out;
-    transition: all 0.35s 0.2s ease-in-out;
-}
-#navbar > ul li:hover ul {
-    opacity: 1;
-    visibility: visible;
-    margin: 0;
-    color: #000;
-    z-index: 2;
-    top: 64px;
-    left: 0;
-}
-#navbar > ul ul:before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    width: 100%;
-    height: 20px;
-    background: transparent;
-}
-#navbar > ul ul li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-#navbar > ul ul li a {
-    padding: 18px 26px;
-    display: block;
-    color: white;
-    font-size: 13px;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 150px;
-    border-left: 4px solid transparent;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-    text-shadow: 0 -1px 0 #c28130;
-    text-shadow: 0 -1px 0 rgba(151, 99, 33, 0.43);
-}
-#navbar > ul ul li a:hover {
-    border-left: 4px solid #722D00;
-    background-color: orange;
-    color: #000000;
-}
-#navbar > ul ul li a:active {
-    background: url(../images/menu-bg.png) repeat;
-}
+    #navbar > ul {
+        background-color: #722d00;
+        ;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
 
-#logoback{
+        #navbar > ul li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #navbar > ul > li {
+            float: left;
+            position: relative;
+        }
+
+            #navbar > ul > li > a {
+                padding: 23px 26px;
+                display: block;
+                color: white;
+                font-size: 1.1em;
+                text-decoration: none;
+                text-transform: uppercase;
+                text-shadow: 0 -1px 0 #c28130;
+                text-shadow: 0 -1px 0 rgba(151, 99, 33, 0.43);
+                line-height: 18px;
+            }
+
+            #navbar > ul > li:hover > a {
+                background-color: orange;
+                color: #000000;
+            }
+
+            #navbar > ul > li > a > span {
+                line-height: 18px;
+            }
+
+            #navbar > ul > li.active > a,
+            #navbar > ul > li > a:active {
+                background-color: orange;
+                color: #000000;
+            }
+
+        #navbar > ul ul {
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            top: 120px;
+            background-image: url("../images/hover.png");
+            background-repeat: repeat;
+            margin: 0;
+            padding: 0;
+            z-index: -1;
+            -webkit-transition: all 0.35s 0.2s ease-in-out;
+            -moz-transition: all 0.35s 0.2s ease-in-out;
+            -ms-transition: all 0.35s 0.2s ease-in-out;
+            transition: all 0.35s 0.2s ease-in-out;
+        }
+
+        #navbar > ul li:hover ul {
+            opacity: 1;
+            visibility: visible;
+            margin: 0;
+            color: #000;
+            z-index: 2;
+            top: 64px;
+            left: 0;
+        }
+
+        #navbar > ul ul:before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            width: 100%;
+            height: 20px;
+            background: transparent;
+        }
+
+        #navbar > ul ul li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+
+            #navbar > ul ul li a {
+                padding: 18px 26px;
+                display: block;
+                color: white;
+                font-size: 13px;
+                text-decoration: none;
+                text-transform: uppercase;
+                width: 150px;
+                border-left: 4px solid transparent;
+                -webkit-transition: all 0.35s ease-in-out;
+                -moz-transition: all 0.35s ease-in-out;
+                -ms-transition: all 0.35s ease-in-out;
+                transition: all 0.35s ease-in-out;
+                text-shadow: 0 -1px 0 #c28130;
+                text-shadow: 0 -1px 0 rgba(151, 99, 33, 0.43);
+            }
+
+                #navbar > ul ul li a:hover {
+                    border-left: 4px solid #722D00;
+                    background-color: orange;
+                    color: #000000;
+                }
+
+                #navbar > ul ul li a:active {
+                    background: url(../images/menu-bg.png) repeat;
+                }
+
+#logoback {
     background-image: url("../images/logo%20back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-#logo{
+#logo {
     width: 15%;
     margin-top: 10px;
 }
 /*/header/*/
 
-body{
+body {
     background-color: #a03900;
     margin: 0;
 }
-#container{
-    width: 90%;    
+
+#container {
+    width: 90%;
     background: url(../images/highlight-bg.png);
     margin: 0 auto;
     border: 20px solid transparent;
@@ -156,13 +174,12 @@ footer {
     width: 100%;
     color: white;
     background-color: #722D00;
-	border-top: 2px solid black;
+    border-top: 2px solid black;
 }
 
 #footer-wrapper {
     width: 60%;
     margin: 0 auto;
-    
 }
 
 footer section section {
@@ -173,9 +190,9 @@ footer section section {
     vertical-align: top;
 }
 
-footer section section#button {
-    vertical-align: middle;
-}
+    footer section section#button {
+        vertical-align: middle;
+    }
 
 
 footer nav ul {
@@ -183,9 +200,9 @@ footer nav ul {
     margin: 0;
 }
 
-footer nav ul li {
-    list-style-type: none;
-}
+    footer nav ul li {
+        list-style-type: none;
+    }
 
 footer a {
     color: white;
@@ -194,7 +211,6 @@ footer a {
 
 #button a, #validations a {
     display: inline-block;
-
 }
 
 #button a {
@@ -203,12 +219,12 @@ footer a {
     line-height: 40px;
     text-align: center;
     background-color: #c28130;
-    border: 1px solid orange;    
+    border: 1px solid orange;
 }
 
-#button a:hover {
-    background-color: orange;
-}
+    #button a:hover {
+        background-color: orange;
+    }
 
 footer nav ul li a:hover {
     color: orange;
@@ -217,19 +233,21 @@ footer nav ul li a:hover {
 footer, footer a {
     font-size: 20px;
 }
-@media only screen and (max-width: 1460px) and (min-width: 1261px) {
- footer section section{
-    width: 47%;
- }
- }
-@media only screen and (max-width: 1260px) and (min-width: 741px) {
- footer section section{
-    width: 40%;
- }
- }
- @media only screen and (max-width: 740px) {
- footer section section{
-    width: 100%;
- }
 
+@media only screen and (max-width: 1460px) and (min-width: 1261px) {
+    footer section section {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 1260px) and (min-width: 741px) {
+    footer section section {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    footer section section {
+        width: 100%;
+    }
 }

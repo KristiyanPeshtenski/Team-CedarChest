@@ -1,29 +1,29 @@
 #map_canvas {
-        width: 500px;
-        height: 500px;
-		margin: 30px auto;
-		border: 1px solid orange;
-      }
-	  
-	  address, h1 {
-		text-align: center;
-	  }
-	  
-	  section {		
-		width: 510px;
-		padding: 5px;
-		margin: 0 auto;
-	  }
-	  
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid orange;
+}
+
+address, h1 {
+    text-align: center;
+}
+
+section {
+    width: 510px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 610px) {
-	section {		
-		width: 250px;		
-	  }
-	  
-	#map_canvas {
+    section {
+        width: 250px;
+    }
+
+    #map_canvas {
         width: 250px;
         height: 250px;
-		margin: 10px auto;
-		border: 1px solid orange;
-      }
+        margin: 10px auto;
+        border: 1px solid orange;
+    }
 }

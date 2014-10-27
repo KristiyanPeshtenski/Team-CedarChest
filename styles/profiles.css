@@ -1,28 +1,28 @@
 #container {
-	height: 2000px;
-}	
+    height: 2000px;
+}
 
-    figure {
-        float: left;
-    }
+figure {
+    float: left;
+}
 
-       figcaption {
-           font-size: 1.2em;
-           text-align: center;
-           font-style: italic;
-           font-weight: bold;
-       }
+figcaption {
+    font-size: 1.2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
 
-    article {   
-        float: left;
-        width: 60%;
-    }
-        
-        h1 {
-            font-size: 2em;
-            text-align: center;
-        }
+article {
+    float: left;
+    width: 60%;
+}
 
-        p, li {
-            font-size: 1.2em;
-        }
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p, li {
+    font-size: 1.2em;
+}

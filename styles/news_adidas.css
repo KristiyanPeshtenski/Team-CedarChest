@@ -8,47 +8,46 @@
     text-align: center;
 }
 
-.collection_conteiner{
+.collection_conteiner {
     width: 75%;
     margin: 0 auto;
 }
 
-figure img{
+figure img {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
 }
 
-figure.logo{
+figure.logo {
     float: left;
     margin-top: 10px;
 }
 
-figure.logo img{
-    width: 300px;
-    margin-top: 23px;
-}
+    figure.logo img {
+        width: 300px;
+        margin-top: 23px;
+    }
 
-.img_container1 figure{
+.img_container1 figure {
     display: inline-block;
 }
 
-.img_container2 figure{
+.img_container2 figure {
     display: inline-block;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 1.5em;
- }
+}
 
-.text{
+.text {
     font-size: 1.2em;
     padding: 10px;
 }
 
-#center_text{
+#center_text {
     text-align: center;
     font-weight: bold;
 }
-

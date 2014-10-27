@@ -6,7 +6,6 @@ input, textarea, select {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 10px 0;
-
 }
 
 label {
@@ -47,7 +46,7 @@ label[for="agree-terms"] {
 
 textarea {
     resize: vertical;
-    text-align:left;
+    text-align: left;
 }
 
 input[type="submit"] {
@@ -57,39 +56,40 @@ input[type="submit"] {
     padding: 20px;
     width: auto;
     height: auto;
-	border-radius: 10px;
-	background-color: orange;
+    border-radius: 10px;
+    background-color: orange;
 }
 
-input[type="submit"]:hover {
-	background-color: #722D00;
-	color: white;
-	cursor: pointer;
-}
+    input[type="submit"]:hover {
+        background-color: #722D00;
+        color: white;
+        cursor: pointer;
+    }
 
 
 @media only screen and (max-width: 575px) {
-	fieldset {
-		width: 310px;		
-	}
-	label, input, select, textarea {		
-		width: 300px;
-	}	
-	
-	label[for="stupid"] {
-		text-align: left;
-	}
-	
-	form {
-		margin-left: 10px;
-	}
-	
-	label[for="agree-terms"] {
-		display: inline-block;
-		width: auto;
-	}
-	
-	input[type="submit"] {
-		margin: 10px;
-	}
+    fieldset {
+        width: 310px;
+    }
+
+    label, input, select, textarea {
+        width: 300px;
+    }
+
+        label[for="stupid"] {
+            text-align: left;
+        }
+
+    form {
+        margin-left: 10px;
+    }
+
+    label[for="agree-terms"] {
+        display: inline-block;
+        width: auto;
+    }
+
+    input[type="submit"] {
+        margin: 10px;
+    }
 }

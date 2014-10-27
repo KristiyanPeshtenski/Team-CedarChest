@@ -1,0 +1,23 @@
+.images{
+    width: 25%;
+    height: 22rem;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.gornacherta{
+    width: 95%;
+    box-shadow: 1px 1px 1px black;
+    float: left;
+}
+.dolnacherta{
+    box-shadow: 2px 2px 2px black;
+}
+
+.textdiv{
+    margin-left: 25%;
+    color: #722d00;
+    font-family: Calibri;
+    font-size: 3em;
+    font-weight: 900;
+}

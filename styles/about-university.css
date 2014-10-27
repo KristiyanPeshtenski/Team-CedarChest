@@ -1,0 +1,28 @@
+#container {
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+p {
+    margin-top: 5px 0;;
+}
+
+ul {
+    padding-left: 5px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+

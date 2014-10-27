@@ -154,9 +154,9 @@ body{
 
 footer {
     width: 100%;
-    
     color: white;
     background-color: #722D00;
+	border-top: 2px solid black;
 }
 
 #footer-wrapper {

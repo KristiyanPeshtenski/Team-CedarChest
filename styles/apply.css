@@ -54,7 +54,15 @@ input[type="submit"] {
     margin: 20px auto;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 10px;
+    padding: 20px;
     width: auto;
     height: auto;
+	border-radius: 10px;
+	background-color: orange;
+}
+
+input[type="submit"]:hover {
+	background-color: #722D00;
+	color: white;
+	cursor: pointer;
 }

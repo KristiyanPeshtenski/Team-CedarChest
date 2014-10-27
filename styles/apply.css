@@ -49,6 +49,10 @@ textarea {
     text-align: left;
 }
 
+input[type="color"] {
+	height: 30px;
+}
+
 input[type="submit"] {
     margin: 20px auto;
     font-weight: bold;
@@ -69,16 +73,23 @@ input[type="submit"] {
 
 @media only screen and (max-width: 575px) {
     fieldset {
-        width: 310px;
+        width: 220px;
     }
 
     label, input, select, textarea {
-        width: 300px;
+        width: 200px;
+        height: auto;
     }
 
-        label[for="stupid"] {
-            text-align: left;
-        }
+    input {
+        max-width: 100%;
+    }
+
+    label[for="stupid"], select {
+        text-align: left;
+        display: block;
+        float: none;
+    }
 
     form {
         margin-left: 10px;

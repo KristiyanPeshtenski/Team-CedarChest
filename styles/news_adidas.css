@@ -1,0 +1,54 @@
+﻿body {
+}
+
+#container header {
+    font-size: 3em;
+    font-weight: bold;
+    background-color: orange;
+    text-align: center;
+}
+
+.collection_conteiner{
+    width: 75%;
+    margin: 0 auto;
+}
+
+figure img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+}
+
+figure.logo{
+    float: left;
+    margin-top: 10px;
+}
+
+figure.logo img{
+    width: 300px;
+    margin-top: 23px;
+}
+
+.img_container1 figure{
+    display: inline-block;
+}
+
+.img_container2 figure{
+    display: inline-block;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5em;
+ }
+
+.text{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#center_text{
+    text-align: center;
+    font-weight: bold;
+}
+

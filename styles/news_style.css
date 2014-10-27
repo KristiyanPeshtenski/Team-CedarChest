@@ -16,6 +16,7 @@ hr {
 
 body div article {
     background-color: rgb(239, 214, 67);
+    font-weight: 700    ;
     width: 360px;
     height: 370px;
     margin-bottom: 10px;
@@ -54,13 +55,29 @@ body div article {
 
 /***TEXT***/
 
+.rakiq_aside{
+    text-align: left;
+}
+
+.rakiq_bottom_text{
+    text-align: left;
+}
+
 .seminar_aside {
     padding-top: 1em;
     text-align: justify;
     padding-left: 53%;
 }
 
-/***IMAGES***/
+.selqnin_article{
+    text-align: left;
+}
+
+.selqnin_top_text{
+  text-align: left;
+}
+
+    /***IMAGES***/
 .article_image img {
     width: 180px;
     height: 180px;
@@ -77,6 +94,8 @@ body div article {
 }
 
 .selqnin_image img {
+    float: left;
+    margin-top: 5px;
     width: 200px;
     height: 200px;
     border: 2px solid black;
@@ -117,7 +136,7 @@ article.rakiq div.aside_text {
     padding-top: 0.4em;
 }
 
-.aside_text {
+.rakiq_aside{
     text-align: justify;
     padding-left: 53%;
 }

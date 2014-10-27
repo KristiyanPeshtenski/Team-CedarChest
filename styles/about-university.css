@@ -26,3 +26,19 @@ ul {
     font-style: italic;
 }
 
+@media only screen and (max-width: 1260px) and (min-width: 741px) {
+
+ 
+ #container {
+	width: 60%;
+	}
+ }
+ @media only screen and (max-width: 740px) {
+
+ 
+  #container {
+	width: 60%;
+	margin: 0 0 0 10px;
+	}
+}
+

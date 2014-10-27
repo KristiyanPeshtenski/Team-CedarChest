@@ -20,7 +20,7 @@
     }
 
     h2 {
-        font-size: 1.75em;
+        font-size: 1.75em;		
     }
 
     div.box {
@@ -45,5 +45,21 @@
 		background-repeat: repeat;
 		color: white;
 	}
+	
+@media only screen and (max-width: 1100px) {
+	div.box {
+		display: inline-block;
+		float: none;
+	}
+	
+	h2 {
+		display: block;
+	}
+	
+	#main > section {
+		height: auto;
+	}
+
+}
 
     

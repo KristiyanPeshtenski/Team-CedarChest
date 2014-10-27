@@ -1,0 +1,30 @@
+﻿body {
+    text-align: left;
+}
+
+
+.page_header {
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#container {
+    padding: 40px;
+}
+
+#container h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#container div {
+    margin-bottom: 10px;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid black;
+}

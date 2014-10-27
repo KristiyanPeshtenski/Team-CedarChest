@@ -1,29 +1,89 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-    <meta charset="UTF-8">
-    <link href="../../styles/style.css" rel="stylesheet" />        
-        <title>Adidas article</title>
-    </head>
-    <body>
-        <div>
-            <img src="../../images/adidas.jpg" alt="" />
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>news_adidas</title>
+    <link href="Styles/style.css" rel="stylesheet" />
+    <link href="Styles/news_adidas.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div id="logoback">
+            <a href="Softuni.html">
+                <img src="images/logofinal.png" alt="logo" id="logo">
+            </a>
         </div>
-        <h3>Нова колекция на adidas 2014</h3>
-        <div>Представянето на колекцията се проведе на 10 Октомври в "Arena de Pernik"</div>
-        <div>отново разбуни духовете на всички присъстващи</div>
-        <div>
-            <img src="/trunk/images/adidas_svatba.jpg" alt="adidas_svatba" />
+
+        <nav id='navbar'>
+            <ul id="menu">
+                <li class='active'><a href='Softuni.html'><span>Начало</span></a></li>
+                <li class='has-sub'><a href='news.html'><span>Новини</span></a></li>
+                <li class='has-sub'><a href='courses.html'><span>Курсове &#9660;</span></a>
+                    <ul>
+                        <li><a href='farmer.html'><span>Земеделец - поливалентен</span></a></li>
+                        <li><a href='cowboy.html'><span>Животновъд</span></a></li>
+                        <li><a href='shepherd.html'><span>Пастир</span></a></li>
+                        <li><a href='transporter.html'><span>Каруцар</span></a></li>
+                        <li><a href='inseminator.html'><span>Осеменител</span></a></li>
+                        <li><a href='rakia-maker.html'><span>Печене и пиене на ракия</span></a></li>
+                        <li class='last'><a href='swearing-soft-skills.html'><span>Цветущо псуване</span></a></li>
+                    </ul>
+                </li>
+                <li class='has-sub'><a href='#'><span>За университета &#9660;</span></a>
+                    <ul>
+                        <li><a href='#'><span>За нас</span></a></li>
+                        <li><a href='#'><span>Галерия</span></a></li>
+                        <li class='last'><a href='#'><span>Преподаватели</span></a></li>
+                    </ul>
+                </li>
+                <li><a href='jobs.html'><span>Работа</span></a></li>
+                <li><a href='partnuri.html'><span>Партньори</span></a></li>
+                <li><a href='apply.html'><span>Кандидатствай</span></a></li>
+                <li class='last'><a href='#'><span>Контакти</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section>
+        <div id="container">
+            <header>
+                Нова колекция на adidas 2014
+            </header>
+            <figure class="logo">
+                <img src="/trunk/images/adidas.jpg" alt="adidas" />
+            </figure>
+            <h3>Представянето на колекцията се проведе на 10 Октомври в "Arena de Pernik"</h3>
+            <div class="text">
+                Тя отново разбуни духовете на всички присъстващи, но след умели действия от страна на органите на реда 
+                 тази година събитието се размина без нито един смъртен случей.
+            </div>
+            <div class="text">
+                На ревюто легендарната марка представи новата си колекция, която е под надслов "A-DI-DI" и е изцяло вдъхновена 
+                от стила на съвременния пернишки "Хай-Лайф" с който дизайнерите се сблъскаха след двудневната си визита в 
+                китния Български град. Зблъсака причини 2 комоциома 7 шчупени ребра, 11 избити зъба и едно незабравимо изживяване 
+                на целия екип.
+            </div>
+            <div class="text" id="center_text">Ето и някой от моделите предизвикали фурор (както и няколко масови побоя)</div>
+            <div class="collection_conteiner">
+                <div class="img_container1">
+                    <figure>
+                        <img src="/trunk/images/carvul_adidass.jpg" alt="adidas_carvul" />
+                    </figure>
+                    <figure>
+                        <img src="/trunk/images/adidas_svatba.jpg" alt="adidas_svatba" />
+                    </figure>
+                    <figure>
+                        <img src="images/adidas_ladies.jpg" alt="adidas ladies"/>
+                    </figure>
+                </div>
+                <div class="img_container2">
+                    <figure><img src="images/adidas_wedding.jpg" alt="adidas wedding"/></figure>
+                    <figure><img src="images/adidas_suit.jpg" alt="adidas_suit"/></figure>
+                </div>
+            </div>
+
         </div>
-        <div>
-            <img src="/trunk/images/carvul_adidass.jpg" alt="adidas_carvul" />
-        </div>
-        <div>На ревюто утвърдилите се дизайнери (...) представиха някой от най - ексклузивните си нови модели както ежедневни така
-            и както са по извесни в България анцузи за сватба
-        </div>
-        <div>Тази година полицията съомя да узъпти тълпата и ревюто се размина без смъртни случей</div>
-        <div>По време на ревюто се проведе и промоцията на новата пернишка дискотека "Винкел" беше официално потвърдено,
-             че входа на откриването се поема от здравната каса.
-        </div>
-    </body>
+    </section>
+</body>
 </html>

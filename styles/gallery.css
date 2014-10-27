@@ -1,0 +1,38 @@
+div#container > header {
+    color: white;
+    background-color: orange;
+    height: 7%;
+    font-size: 2.5em; 
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0.5em; 
+}
+#gallery-content{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	font-size: 1.5em;
+}
+@media only screen and (max-width: 1800px) and (min-width: 1731px) {
+	#gallery-content{
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 1730px) and (min-width:  1503px) {
+	#gallery-content{
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 1502px) {
+	#gallery-content{
+		text-align: justify;
+		margin-bottom: 1em;
+		width: 100%;
+		display: block;
+		float: none;
+	}
+	#slider1_container{;
+		max-width: 100%;
+		vertical-align: middle;
+	}
+}

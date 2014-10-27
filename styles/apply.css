@@ -66,3 +66,30 @@ input[type="submit"]:hover {
 	color: white;
 	cursor: pointer;
 }
+
+
+@media only screen and (max-width: 575px) {
+	fieldset {
+		width: 310px;		
+	}
+	label, input, select, textarea {		
+		width: 300px;
+	}	
+	
+	label[for="stupid"] {
+		text-align: left;
+	}
+	
+	form {
+		margin-left: 10px;
+	}
+	
+	label[for="agree-terms"] {
+		display: inline-block;
+		width: auto;
+	}
+	
+	input[type="submit"] {
+		margin: 10px;
+	}
+}

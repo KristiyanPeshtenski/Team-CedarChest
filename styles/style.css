@@ -220,6 +220,7 @@ footer a {
     text-align: center;
     background-color: #c28130;
     border: 1px solid orange;
+	margin: 10px 0;
 }
 
     #button a:hover {

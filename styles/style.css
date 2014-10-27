@@ -152,11 +152,68 @@ body{
     border-image-slice: 100;
 }
 
-div#container h1 {
+footer {
+    width: 100%;
+    
     color: white;
-    background-color: orange;
-    height: 7%;
-    font-size: 2.5em; 
+    background-color: #722D00;
+}
+
+#footer-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+footer section section {
+    margin: 0;
     padding: 10px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer section section#button {
+    vertical-align: middle;
+}
+
+
+footer nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    list-style-type: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#button a, #validations a {
+    display: inline-block;
+
+}
+
+#button a {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
+    background-color: #c28130;
+    border: 1px solid orange;    
+}
+
+#button a:hover {
+    background-color: orange;
+}
+
+footer nav ul li a:hover {
+    color: orange;
+}
+
+footer, footer a {
+    font-size: 20px;
 }

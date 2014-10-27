@@ -1,30 +1,47 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../../styles/style.css">
     <title>Gallery</title>
-                    <style>
-                    .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
-                    {
-                        position: absolute;
-                        cursor: pointer;
-                        display: block;
-                        background: url(../../images/a17.png) no-repeat;
-                        overflow:hidden;
-                    }
-                    .jssora05l { background-position: -10px -40px; }
-                    .jssora05r { background-position: -70px -40px; }
-                    .jssora05l:hover { background-position: -130px -40px; }
-                    .jssora05r:hover { background-position: -190px -40px; }
-                    .jssora05ldn { background-position: -250px -40px; }
-                    .jssora05rdn { background-position: -310px -40px; }
-                </style>
+    <style>
+        .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
+            position: absolute;
+            cursor: pointer;
+            display: block;
+            background: url(../../images/a17.png) no-repeat;
+            overflow: hidden;
+        }
+
+        .jssora05l {
+            background-position: -10px -40px;
+        }
+
+        .jssora05r {
+            background-position: -70px -40px;
+        }
+
+        .jssora05l:hover {
+            background-position: -130px -40px;
+        }
+
+        .jssora05r:hover {
+            background-position: -190px -40px;
+        }
+
+        .jssora05ldn {
+            background-position: -250px -40px;
+        }
+
+        .jssora05rdn {
+            background-position: -310px -40px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div id="logoback">
-            <a href="../index.html">
+            <a href="../../index.html">
                 <img src="../../images/logofinal.png" alt="logo" id="logo">
             </a>
         </div>
@@ -49,7 +66,7 @@
                     <a href='../about-university.html'><span>За университета &#9660;</span></a>
                     <ul>
                         <li><a href='for-us.html'><span>За нас</span></a></li>
-						<li><a href='gallery.html'><span>Галерия</span></a></li>
+                        <li><a href='gallery.html'><span>Галерия</span></a></li>
                         <li class='last'><a href='trainers.html'><span>Преподаватели</span></a></li>
                     </ul>
                 </li>
@@ -70,7 +87,7 @@
                 jQuery(document).ready(function ($) {
 
                     var _SlideshowTransitions = [
-                        {$Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+                        { $Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
                         , { $Duration: 1200, x: -0.3, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
                         , { $Duration: 1200, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
                         , { $Duration: 1200, x: 0.3, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
@@ -92,7 +109,7 @@
                         , { $Duration: 1200, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseOutCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
                         , { $Duration: 1200, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
                         , { $Duration: 1200, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseOutCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
-                        ];
+                    ];
 
                     var options = {
                         $AutoPlay: true,
@@ -102,13 +119,13 @@
                         $ArrowKeyNavigation: true,
                         $SlideDuration: 800,
                         $SlideshowOptions: {
-                            $Class: $JssorSlideshowRunner$, 
+                            $Class: $JssorSlideshowRunner$,
                             $Transitions: _SlideshowTransitions,
                             $TransitionsOrder: 1,
                             $ShowLink: true
                         },
 
-                        $ArrowNavigatorOptions: { 
+                        $ArrowNavigatorOptions: {
                             $Class: $JssorArrowNavigator$,
                             $ChanceToShow: 1
                         },
@@ -152,64 +169,64 @@
                 <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 356px; overflow: hidden;">
                     <div>
                         <img src="../../images/alila/01.jpg" alt="img" />
-                        <img src="../../images/alila/thumb-01.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/02.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-02.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/03.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-03.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/04.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-04.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/05.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-05.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/06.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-06.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/07.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-07.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/08.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-08.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/09.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-09.jpg" alt="img"/>
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/10.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-10.jpg" alt="img"/>
-                    </div>                     
-                                               
-                    <div>                      
-                        <img src="../../images/alila/11.jpg" alt="img"/>
+                        <img src="../../images/alila/thumb-01.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/02.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-02.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/03.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-03.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/04.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-04.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/05.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-05.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/06.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-06.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/07.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-07.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/08.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-08.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/09.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-09.jpg" alt="img" />
+                    </div>
+                    <div>
+                        <img src="../../images/alila/10.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-10.jpg" alt="img" />
+                    </div>
+
+                    <div>
+                        <img src="../../images/alila/11.jpg" alt="img" />
                         <img src="../../images/alila/thumb-11.jpg" alt="img">
-                    </div>                     
-                    <div>                      
-                        <img src="../../images/alila/12.jpg" alt="img"/>
-                        <img src="../../images/alila/thumb-12.jpg" alt="img"/>
+                    </div>
+                    <div>
+                        <img src="../../images/alila/12.jpg" alt="img" />
+                        <img src="../../images/alila/thumb-12.jpg" alt="img" />
                     </div>
                 </div>
                 <span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 158px; left: 8px;">
                 </span>
                 <span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 158px; right: 8px">
                 </span>
-                
-                </div>
+
             </div>
+        </div>
     </section>
 
-	<footer>
+    <footer>
         <section id="footer-wrapper">
             <section id="button">
                 <a href="main-menu/apply.html">Кандидатствай</a>

@@ -217,3 +217,18 @@ footer nav ul li a:hover {
 footer, footer a {
     font-size: 20px;
 }
+@media only screen and (max-width: 1460px) and (min-width: 1261px) {
+ footer section section{
+    width: 47%;
+ }
+ }
+@media only screen and (max-width: 1260px) and (min-width: 741px) {
+ footer section section{
+    width: 40%;
+ }
+ }
+ @media only screen and (max-width: 740px) {
+ footer section section{
+    width: 100%;
+ }
+ }

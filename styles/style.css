@@ -229,10 +229,13 @@ footer a {
     background-color: #c28130;
     border: 1px solid orange;
 	margin: 10px 0;
+    font-weight: 900;
 }
 
     #button a:hover {
         background-color: orange;
+        color: #722D00;
+        border-radius: 55%;
     }
 
 footer nav ul li a:hover {

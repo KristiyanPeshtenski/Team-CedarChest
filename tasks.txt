@@ -9,6 +9,6 @@
 - (Done) Обяви за работа (Фил)
 - (Done) Основен дизайн на сайта
 - Респонсив
-- Фyтер
+- (Done) Фyтер
 - (Done) domain and hosting(Иван)
 - (Done) Contacts (Фил)

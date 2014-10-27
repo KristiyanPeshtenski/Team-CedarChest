@@ -1,4 +1,6 @@
-
+#container{
+    text-align: center;
+}
 .news_header {
     background-color: orange;
     padding: 0;
@@ -14,7 +16,7 @@ hr {
 body div article {
     background-color: rgb(239, 214, 67);
     width: 360px;
-    height: 360px;
+    height: 370px;
     margin-bottom: 10px;
     border: 1px solid black;
     padding: 10px;
@@ -44,14 +46,17 @@ body div article a {
 .first_line article, .sec_line article, .third_line article {
     display: inline-block;
     vertical-align: top;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em; 
 }
 
     /***TEXT***/
 
 .seminar_aside {
-    padding-top: 20px;
+    padding-top: 1em;
+    text-align: justify;
+    padding-left: 53%; 
 }
 
     /***IMAGES***/
@@ -82,30 +87,56 @@ body div article a {
     border: 2px solid black;
 }
 
-
-
+article>header{
+    font-size: 1.5em;
+    height: 2.5em;
+    vertical-align: middle;
+    margin-top: 0.1em;
+}
+.top-text{
+    text-align: left;
+}
 video {
-    width: 360px;
+    width: 335px;
     height: 245px;
 }
 
 article.rakiq div.bottom_text {
-    margin-top: 50px;
+    margin-top: 15%;
+    text-align: right;
+}
+.bottom_text{
+    text-align: justify;
 }
 
 article.rakiq div.aside_text {
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
-
-/*article.seminar div.aside_text {
-    padding-top: 20px;
+.aside_text{
+    text-align: justify;
+    padding-left: 53%;
 }
-
-
-article.seminar div.bottom_text {
-    margin-top: 35px;
-}*/
-
-
-
-
+ @media only screen and (max-width: 500px) {
+    .first_line article, .sec_line article, .third_line article {
+        margin-left: 0
+    }
+    body div article {
+    width: 87%;
+    height: 100%;
+    box-shadow: none;
+    }
+    .third_line{
+        position: relative;
+        left: -0.8em;
+    }
+    article>header{
+    font-size: 1.5em;
+    height: 100%;
+    vertical-align: middle;
+    margin-top: 0.1em;
+    }
+    video {
+    width: 100%;
+    height: 245px;
+}
+ }

@@ -14,10 +14,16 @@
     box-shadow: 2px 2px 2px black;
 }
 
-.textdiv{
+.textdiv {
     margin-left: 25%;
     color: #722d00;
     font-family: Calibri;
     font-size: 3em;
     font-weight: 900;
+}
+@media only screen and (max-width: 740px) {
+    .images {
+        width: 60%;
+        height: 16rem;
+    }
 }

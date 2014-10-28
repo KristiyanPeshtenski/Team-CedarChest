@@ -40,6 +40,11 @@ body div article {
             text-align: center;
         }
 
+        body div article h3 a:hover{
+            text-decoration: underline;
+            color: gray;
+        }
+
     body div article a {
         text-decoration: none;
         color: black;

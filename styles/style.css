@@ -172,7 +172,7 @@ body {
 #container {
     width: 90%;
     background: url(../images/highlight-bg.png);
-    margin: 0 auto;
+    margin: 10px auto;
     border: 20px solid transparent;
     border-image-source: url(../images/wooden_texture_hd_picture_170654.jpg);
     border-image-slice: 100;

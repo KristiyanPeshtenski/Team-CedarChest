@@ -36,6 +36,23 @@ div#tor > header {
     vertical-align: middle;
     margin-right: 4em;
     margin-top: 0.5em;
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    opacity: 0.7;
+    margin: 0 5px 5px 0;
+}
+.firma:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    box-shadow:0px 0px 30px gray;
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray;
+    opacity: 1;
 }
 
 div#bager > header {

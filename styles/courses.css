@@ -66,3 +66,12 @@ div.box {
         height: auto;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    #main {
+        margin: 5px;
+    }  
+
+	
+		
+}

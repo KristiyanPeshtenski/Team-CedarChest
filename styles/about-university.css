@@ -40,12 +40,27 @@ ul {
         width: 60%;
     }
 }
+@media only screen and (max-width: 500px) {
 
+
+    #container article{
+        text-align: justify;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
 @media only screen and (max-width: 740px) {
 
 
     #container {
-        width: 60%;
+        width: 80%;
         margin: 0 0 0 10px;
+    }
+}
+@media only screen and (max-width: 330px) {
+
+
+    div#container #heading {
+        font-size: 1.5em;
     }
 }

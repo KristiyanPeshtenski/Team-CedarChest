@@ -1,4 +1,4 @@
-﻿body {
+body {
     text-align: left;
 }
 
@@ -14,14 +14,14 @@
     padding: 40px;
 }
 
-    #container h3 {
-        font-size: 2em;
-        text-align: center;
-    }
+#container h3 {
+    font-size: 2em;
+    text-align: center;
+}
 
-    #container div {
-        margin-bottom: 10px;
-    }
+#container div {
+    margin-bottom: 10px;
+}
 
 img {
     float: left;

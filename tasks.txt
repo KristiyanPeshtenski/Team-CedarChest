@@ -12,3 +12,4 @@
 - (Done) Фyтер
 - (Done) domain and hosting(Иван)
 - (Done) Contacts (Фил)
+- TODO - create menu button for small resolutions
